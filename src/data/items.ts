@@ -1,0 +1,123 @@
+export interface Item {
+  id: string;
+  category: string;
+  name: string;
+}
+
+export const items: Item[] = [
+  // Animales (20)
+  { id: 'leon', category: 'animales', name: 'León' },
+  { id: 'perro', category: 'animales', name: 'Perro' },
+  { id: 'gato', category: 'animales', name: 'Gato' },
+  { id: 'vaca', category: 'animales', name: 'Vaca' },
+  { id: 'oveja', category: 'animales', name: 'Oveja' },
+  { id: 'cabra', category: 'animales', name: 'Cabra' },
+  { id: 'conejo', category: 'animales', name: 'Conejo' },
+  { id: 'cerdo', category: 'animales', name: 'Cerdo' },
+  { id: 'elefante', category: 'animales', name: 'Elefante' },
+  { id: 'jirafa', category: 'animales', name: 'Jirafa' },
+  { id: 'oso', category: 'animales', name: 'Oso' },
+  { id: 'mono', category: 'animales', name: 'Mono' },
+  { id: 'pajaro', category: 'animales', name: 'Pájaro' },
+  { id: 'pez', category: 'animales', name: 'Pez' },
+  { id: 'tiburon', category: 'animales', name: 'Tiburón' },
+  { id: 'delfin', category: 'animales', name: 'Delfín' },
+  { id: 'abeja', category: 'animales', name: 'Abeja' },
+  { id: 'mariposa', category: 'animales', name: 'Mariposa' },
+  { id: 'rana', category: 'animales', name: 'Rana' },
+  { id: 'pato', category: 'animales', name: 'Pato' },
+
+  // Familia y Personas (10)
+  { id: 'mama', category: 'familia', name: 'Mamá' },
+  { id: 'papa', category: 'familia', name: 'Papá' },
+  { id: 'hermano', category: 'familia', name: 'Hermano' },
+  { id: 'hermana', category: 'familia', name: 'Hermana' },
+  { id: 'abuelo', category: 'familia', name: 'Abuelo' },
+  { id: 'abuela', category: 'familia', name: 'Abuela' },
+  { id: 'bebe', category: 'familia', name: 'Bebé' },
+  { id: 'nino', category: 'familia', name: 'Niño' },
+  { id: 'nina', category: 'familia', name: 'Niña' },
+  { id: 'amigo', category: 'familia', name: 'Amigo' },
+
+  // Colores (11)
+  { id: 'rojo', category: 'colores', name: 'Rojo' },
+  { id: 'azul', category: 'colores', name: 'Azul' },
+  { id: 'verde', category: 'colores', name: 'Verde' },
+  { id: 'amarillo', category: 'colores', name: 'Amarillo' },
+  { id: 'rosa', category: 'colores', name: 'Rosa' },
+  { id: 'naranja', category: 'colores', name: 'Naranja' },
+  { id: 'morado', category: 'colores', name: 'Morado' },
+  { id: 'blanco', category: 'colores', name: 'Blanco' },
+  { id: 'negro', category: 'colores', name: 'Negro' },
+  { id: 'marron', category: 'colores', name: 'Marrón' },
+  { id: 'gris', category: 'colores', name: 'Gris' },
+
+  // Números (10)
+  { id: 'uno', category: 'numeros', name: 'Uno' },
+  { id: 'dos', category: 'numeros', name: 'Dos' },
+  { id: 'tres', category: 'numeros', name: 'Tres' },
+  { id: 'cuatro', category: 'numeros', name: 'Cuatro' },
+  { id: 'cinco', category: 'numeros', name: 'Cinco' },
+  { id: 'seis', category: 'numeros', name: 'Seis' },
+  { id: 'siete', category: 'numeros', name: 'Siete' },
+  { id: 'ocho', category: 'numeros', name: 'Ocho' },
+  { id: 'nueve', category: 'numeros', name: 'Nueve' },
+  { id: 'diez', category: 'numeros', name: 'Diez' },
+
+  // Comida y Frutas (20)
+  { id: 'manzana', category: 'comida', name: 'Manzana' },
+  { id: 'platano', category: 'comida', name: 'Plátano' },
+  { id: 'naranja_fruta', category: 'comida', name: 'Naranja' },
+  { id: 'uva', category: 'comida', name: 'Uva' },
+  { id: 'zanahoria', category: 'comida', name: 'Zanahoria' },
+  { id: 'papa_comida', category: 'comida', name: 'Papa' },
+  { id: 'leche', category: 'comida', name: 'Leche' },
+  { id: 'agua', category: 'comida', name: 'Agua' },
+  { id: 'galleta', category: 'comida', name: 'Galleta' },
+  { id: 'pan', category: 'comida', name: 'Pan' },
+  { id: 'huevo', category: 'comida', name: 'Huevo' },
+  { id: 'queso', category: 'comida', name: 'Queso' },
+  { id: 'sandwich', category: 'comida', name: 'Sandwich' },
+  { id: 'pizza', category: 'comida', name: 'Pizza' },
+  { id: 'melon', category: 'comida', name: 'Melón' },
+  { id: 'fresa', category: 'comida', name: 'Fresa' },
+  { id: 'tomate', category: 'comida', name: 'Tomate' },
+  { id: 'arroz', category: 'comida', name: 'Arroz' },
+  { id: 'jugo', category: 'comida', name: 'Jugo' },
+  { id: 'helado', category: 'comida', name: 'Helado' },
+
+  // Partes del Cuerpo (10)
+  { id: 'cabeza', category: 'cuerpo', name: 'Cabeza' },
+  { id: 'ojo', category: 'cuerpo', name: 'Ojo' },
+  { id: 'nariz', category: 'cuerpo', name: 'Nariz' },
+  { id: 'boca', category: 'cuerpo', name: 'Boca' },
+  { id: 'oreja', category: 'cuerpo', name: 'Oreja' },
+  { id: 'mano', category: 'cuerpo', name: 'Mano' },
+  { id: 'pie', category: 'cuerpo', name: 'Pie' },
+  { id: 'brazo', category: 'cuerpo', name: 'Brazo' },
+  { id: 'pierna', category: 'cuerpo', name: 'Pierna' },
+  { id: 'pelo', category: 'cuerpo', name: 'Pelo' },
+
+  // Objetos del Hogar (10)
+  { id: 'cama', category: 'hogar', name: 'Cama' },
+  { id: 'mesa', category: 'hogar', name: 'Mesa' },
+  { id: 'silla', category: 'hogar', name: 'Silla' },
+  { id: 'puerta', category: 'hogar', name: 'Puerta' },
+  { id: 'ventana', category: 'hogar', name: 'Ventana' },
+  { id: 'lampara', category: 'hogar', name: 'Lámpara' },
+  { id: 'libro', category: 'hogar', name: 'Libro' },
+  { id: 'juguete', category: 'hogar', name: 'Juguete' },
+  { id: 'pelota', category: 'hogar', name: 'Pelota' },
+  { id: 'telefono', category: 'hogar', name: 'Teléfono' },
+
+  // Ropa (9)
+  { id: 'camisa', category: 'ropa', name: 'Camisa' },
+  { id: 'pantalon', category: 'ropa', name: 'Pantalón' },
+  { id: 'zapato', category: 'ropa', name: 'Zapato' },
+  { id: 'calcetin', category: 'ropa', name: 'Calcetín' },
+  { id: 'sombrero', category: 'ropa', name: 'Sombrero' },
+  { id: 'vestido', category: 'ropa', name: 'Vestido' },
+  { id: 'chaqueta', category: 'ropa', name: 'Chaqueta' },
+  { id: 'botas', category: 'ropa', name: 'Botas' },
+  { id: 'pijama', category: 'ropa', name: 'Pijama' },
+];
